@@ -15,6 +15,14 @@ You must run this script on a linux x86_64 arch, the same as Amazon Lambda.
 
 This will package a lambda with a handler at ``aws_lambda.sign_xpi.handle``.
 
+Using the docker file
+=====================
+
+If you have docker installed then you can do the following::
+
+  docker build . -t sign-xpi
+  docker run -it sign-xpi bash
+
 Development
 ===========
 
